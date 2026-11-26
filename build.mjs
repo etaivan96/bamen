@@ -33,7 +33,6 @@ for (const [slug, name, description] of pages) {
   <title>${slug === 'index' ? 'Bamen — Storyboard to background' : name + ' — Bamen'}</title>
   <link rel="icon" href="assets/bamen.ico">
   <link rel="stylesheet" href="assets/site.css">
-  <script src="assets/site.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>

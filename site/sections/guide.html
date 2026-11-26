@@ -1,0 +1,45 @@
+<section class="wrap page-intro">
+  <p class="eyebrow"><i></i> Usage guide</p>
+  <h1>From page to <em>background.</em></h1>
+  <p class="lede">Set up Bamen, register a panel, and render its first saved camera view.</p>
+</section>
+<div class="wrap docs-layout">
+  <aside><nav class="on-page" aria-label="On this page">
+    <a href="#install">Install and sign in</a><a href="#first-panel">First panel</a><a href="#shortcuts">Shortcuts</a><a href="#uninstall">Uninstall</a>
+  </nav></aside>
+  <article class="prose">
+    <section id="install">
+      <h2>Install and sign in</h2>
+      <p>Bamen currently targets <strong>64-bit Windows and SketchUp 2025 Desktop</strong>. Install SketchUp first. The Bamen setup is designed to install both Desktop and the extension for your Windows account.</p>
+      <p id="release-status" class="notice"><strong>Installer availability</strong><br>The public installer is pending release qualification. Public downloads will be listed on GitHub Releases.</p>
+      <a class="button" href="{{github}}/releases">View GitHub Releases <span aria-hidden="true">↗</span></a>
+      <p>Close SketchUp before running setup. Open Bamen from the Start menu and select <strong>Sign in with Google</strong>. The SketchUp HUD uses the same Bamen session on that Windows account.</p>
+    </section>
+    <section id="first-panel">
+      <h2>Render your first panel</h2>
+      <ol class="instructions">
+        <li><strong>Create an episode.</strong> In Bamen, select <strong>New Episode</strong> and save a <code>.bmn</code> project.</li>
+        <li><strong>Import an entire page.</strong> Drop the file in Pages or click <strong>Add pages</strong>. The importer accepts PNG, JPEG, WebP, and supported CLIP pages.</li>
+        <li><strong>Register a panel.</strong> Use Rectangle or Polygon to mark a panel. With the panel selected you can adjust its frame and rotation. Wait for Bamen to confirm the save.</li>
+        <li><strong>Open the storyboard in SketchUp.</strong> Use <strong>Open in SketchUp</strong> in Bamen, or browse to the saved project from the HUD. Select the page and panel, then frame the scene in Model mode.</li>
+        <li><strong>Capture and review.</strong> Press <kbd>F6</kbd> and wait for <strong>Saved</strong>. Use <kbd>F7</kbd> to recall a camera. If the HUD requests a model binding, finish that step before capturing.</li>
+        <li><strong>Render.</strong> Open the Render workspace. Click a page or panel card to add it to the selection. Pick your output settings, then select <strong>Render selected panels</strong>.</li>
+      </ol>
+    </section>
+    <section id="shortcuts">
+      <h2>Shortcuts</h2>
+      <dl class="shortcuts">
+        <div><dt><kbd>R</kbd> / <kbd>P</kbd></dt><dd>Rectangle or polygon panel in Desktop</dd></div>
+        <div><dt><kbd>Space</kbd> + drag</dt><dd>Pan the Desktop canvas</dd></div>
+        <div><dt><kbd>Z</kbd> + left drag</dt><dd>Zoom in Desktop or SketchUp Storyboard mode</dd></div>
+        <div><dt><kbd>Alt</kbd> + <kbd>1</kbd> / <kbd>2</kbd></dt><dd>Switch Model and Storyboard modes in SketchUp</dd></div>
+        <div><dt><kbd>F6</kbd> / <kbd>F7</kbd></dt><dd>Capture or recall a camera in SketchUp</dd></div>
+      </dl>
+      <p>In the HUD, hover over the dim icon to adjust the background darkness. The storyboard page keeps its own opacity.</p>
+    </section>
+    <section id="uninstall">
+      <h2>Uninstall</h2>
+      <p>Close Bamen and SketchUp. Open Windows <strong>Settings → Apps → Installed apps → Bamen</strong> and choose <strong>Uninstall</strong>. Setup removes its Bamen application and SketchUp extension files. Keep your <code>.bmn</code> projects and source artwork wherever you saved them.</p>
+    </section>
+  </article>
+</div>

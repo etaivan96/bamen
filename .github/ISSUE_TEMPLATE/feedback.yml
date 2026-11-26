@@ -1,0 +1,14 @@
+name: Share feedback
+description: Tell us about your workflow or suggest an improvement.
+title: "[Feedback] "
+body:
+  - type: markdown
+    attributes:
+      value: Feedback is public. Leave out private artwork, files and information.
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What would you like to improve?
+      description: Describe the step you work through and what would make it easier.
+    validations:
+      required: true

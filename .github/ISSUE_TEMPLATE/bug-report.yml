@@ -1,0 +1,25 @@
+name: Report a bug
+description: Report incorrect behavior in Bamen Desktop or its SketchUp HUD.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: This report is public. Remove private files, account details and project paths.
+  - type: input
+    id: versions
+    attributes:
+      label: Bamen build, SketchUp version and Windows version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened and what did you expect?
+    validations:
+      required: true

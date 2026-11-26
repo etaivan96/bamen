@@ -1,0 +1,14 @@
+name: Get help
+description: Ask a question about installing, using or recovering Bamen.
+title: "[Help] "
+body:
+  - type: markdown
+    attributes:
+      value: This question is public. Leave out private files, account details and project paths.
+  - type: textarea
+    id: question
+    attributes:
+      label: What are you trying to do?
+      description: Include your versions, the step that is blocking you, and the wording of any error.
+    validations:
+      required: true
